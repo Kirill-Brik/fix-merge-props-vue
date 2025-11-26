@@ -1,12 +1,12 @@
 <script setup>
-import TestA from './components/testA.vue';
+import Comp1 from '@/Comp1.vue';
 </script>
 
 <template>
   <main>
     <main>
       main
-      <TestA  test="main"/>
+      <Comp1 disabled/>
     </main>
   </main>
 </template>
